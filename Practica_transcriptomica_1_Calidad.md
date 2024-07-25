@@ -215,7 +215,6 @@ Partial_SRR2467141_fastqc.zip
 
 ------
 
-# Tutorial de Bioinformática
 
 ## Exploración de Resultados
 
