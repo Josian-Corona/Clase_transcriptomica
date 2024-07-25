@@ -61,21 +61,25 @@ Sp_ds.left.fq.gz     Sp_genes.gtf       Sp_hs.left.fq.gz  Sp_log.left.fq.gz  Sp_
 
    **Vamos a generar un directorio de trabajo en el directorio `/usr/local`**
 ```sh
-   $ cd ..
-   $ mkdir ANALYSIS
-   #Y copiaremos los datos para trabajar:
+    cd ..
+    mkdir ANALYSIS
 
-    cd ANALYSIS
-    cp /usr/local/data/FastQC_Short.tar.gz .
-   #Podemos descomprimir los datos usando ese mismo comando:
+#Y copiaremos los datos para trabajar:
+cd ANALYSIS
+cp /usr/local/data/FastQC_Short.tar.gz .
+
+ #Podemos descomprimir los datos usando ese mismo comando:
 
     tar -xvf FastQC_Short.tar.gz
-   #Este comando descomprime un directorio llamado FastQC_Short. Entramos en ese directorio:
+
+ #Este comando descomprime un directorio llamado FastQC_Short. Entramos en ese directorio:
 
     cd FastQC_Short
    
    #Revisamos su contenido:
    ls
+```
+```
    Partial_SRR2467141.fastq
    Partial_SRR2467142.fastq
    Partial_SRR2467143.fastq
