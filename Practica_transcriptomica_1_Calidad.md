@@ -35,10 +35,10 @@ Aprender a utilizar software para medir y mejorar la calidad de datos de secuenc
 
 ###  Descargando la imagen de Docker
 **En su terminal deberán ejecutar el siguiente comando:**
-	```sh
+``` sh
 	docker pull joseancorona/curso_transcriptomica:base
- docker run -it joseancorona/curso_transcriptomica:base /bin/bash
-	```
+	 docker run -it joseancorona/curso_transcriptomica:base /bin/bash
+```
 
  **Descargando los datos:**
  Lo primero que hacemos al recibir nuestros datos es descargarlos. Generalmente están en un formato comprimido llamado tar. Para su conveniencia los datos están cargados en el directorio:
