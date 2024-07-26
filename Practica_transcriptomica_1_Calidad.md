@@ -37,6 +37,7 @@ Aprender a utilizar software para medir y mejorar la calidad de datos de secuenc
 **En su terminal deberán ejecutar el siguiente comando:**
 	```sh
 	docker pull joseancorona/curso_transcriptomica:base
+ docker run -it joseancorona/curso_transcriptomica:base /bin/bash
 	```
 
  **Descargando los datos:**
